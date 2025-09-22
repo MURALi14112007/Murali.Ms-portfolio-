@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #e3f2fd, #f1f8e9);
+            text-align: center;
+            color: #333;
+        }
+        .welcome-box {
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            width: 350px;
+        }
+        h1 {
+            color: #0a66c2;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .buttons a {
+            text-decoration: none;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        #login-btn {
+            background-color: #0a66c2;
+        }
+        #login-btn:hover {
+            background-color: #084c9c;
+        }
+        #register-btn {
+            background-color: #28a745;
+        }
+        #register-btn:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-box">
+        <h1>Welcome!</h1>
+        <p>Please log in to view your portfolio or register if you're a new user.</p>
+        <div class="buttons">
+            <a href="login.html" id="login-btn">Login</a>
+            <a href="register.html" id="register-btn">Register</a>
+        </div>
+    </div>
+</body>
+</html>
